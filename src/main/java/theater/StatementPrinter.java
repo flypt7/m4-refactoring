@@ -61,7 +61,7 @@ public class StatementPrinter {
     }
 
     private int getAmount(Performance performance) {
-        int result = 0;
+        int result;
         switch (getPlay(performance).getType()) {
             case "tragedy":
                 result = Constants.TRAGEDY_BASE_AMOUNT;
